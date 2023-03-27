@@ -1,0 +1,88 @@
+//Nome: Thiago Gabriel Alves da Costa - RM:95584 *2TDSPK
+//Nome: Gabriel de Almeida Rodrigues - RM:93183 *2TDSPK
+
+*Você pode alterar tudo, ou seja pegue um que ja esteja inserido, use o id dele para alterar o que quiser, pode ser o titulo, ator etc;
+*Ator= Ator principal;
+
+EndPoints:
+POST - http://localhost:8080/filmes
+GET - http://localhost:8080/filmes // se quiser ver as outras paginas use http://localhost:8080/filmes?page=1, lembrando que começa do 0 ;)
+PUT - http://localhost:8080/filmes/{id}
+DELETE - http://localhost:8080/filmes{id}
+
+{
+    "titulo": "Os Incríveis",
+    "ator": "Craig T. Nelson",
+    "duracao": "115",
+    "lancamento": "2004",
+    "origem": "EUA",
+    "genero": "FICCAO",
+    "fichaTecnica": {
+        "direcao": "Brad Bird",
+        "elenco": "Craig T. Nelson, Holly Hunter, Samuel L. Jackson",
+        "roteiro": "Brad Bird",
+        "classificacaoIndicativa": "Livre",
+        "producao": "Pixar Animation Studios"
+    }
+}
+
+{
+    "titulo": "Um Sonho de Liberdade",
+    "ator": "Tim Robbins",
+    "duracao": "142",
+    "lancamento": "1994",
+    "origem": "EUA",
+    "genero": "DRAMA",
+    "fichaTecnica": {
+        "direcao": "Frank Darabont",
+        "elenco": "Tim Robbins, Morgan Freeman, Bob Gunton",
+        "roteiro": "Frank Darabont",
+        "classificacaoIndicativa": "",
+        "producao": "Castle Rock Entertainment"
+    }
+}
+{
+    "titulo": "O Poderoso Chefão",
+    "ator": "Marlon Brando",
+    "duracao": "175",
+    "lancamento": "1972",
+    "origem": "EUA",
+    "genero": "DRAMA",
+    "fichaTecnica": {
+        "direcao": "Francis Ford Coppola",
+        "elenco": "Marlon Brando, Al Pacino, James Caan",
+        "roteiro": "Francis Ford Coppola, Mario Puzo",
+        "classificacaoIndicativa": "16 anos",
+        "producao": "Paramount Pictures"
+    }
+}
+{
+    "titulo": "Forrest Gump: O Contador de Histórias",
+    "ator": "Tom Hanks",
+    "duracao": "142",
+    "lancamento": "1994",
+    "origem": "EUA",
+    "genero": "DRAMA",
+    "fichaTecnica": {
+        "direcao": "Robert Zemeckis",
+        "elenco": "Tom Hanks, Robin Wright, Gary Sinise",
+        "roteiro": "Eric Roth",
+        "classificacaoIndicativa": "12 anos",
+        "producao": "Paramount Pictures"
+    }
+}
+{
+    "titulo": "De Volta Para o Futuro",
+    "ator": "Michael J. Fox",
+    "duracao": "116",
+    "lancamento": "1985",
+    "origem": "EUA",
+    "genero": "FICCAO",
+    "fichaTecnica": {
+        "direcao": "Robert Zemeckis",
+        "elenco": "Michael J. Fox, Christopher Lloyd, Lea Thompson",
+        "roteiro": "Robert Zemeckis, Bob Gale",
+        "classificacaoIndicativa": "Livre",
+        "producao": "Universal Pictures"
+    }
+}
